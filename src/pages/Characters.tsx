@@ -47,6 +47,7 @@ export default function Characters() {
       <div className="space-y-12">
         {/* Section 01 */}
         <section>
+          <img src="https://gbe88.uk/2/G/r.webp" alt="백 율 프로필" className="w-full h-auto max-w-sm rounded-xl mb-6 border border-navy-light shadow-md" referrerPolicy="no-referrer" />
           <h2 className="text-xl font-bold text-white mb-5 flex items-center">
             <span className="bg-cyan-neon/10 text-cyan-neon px-2 py-0.5 rounded text-sm mr-3 border border-cyan-neon/30">01</span>
             기본 프로필
@@ -107,6 +108,7 @@ export default function Characters() {
 
         {/* Section 05 */}
         <section>
+          <img src="https://gbe88.uk/2/G/q.webp" alt="은밀한 성향" className="w-full h-auto max-w-sm rounded-xl mb-6 border border-navy-light shadow-md" referrerPolicy="no-referrer" />
           <h2 className="text-xl font-bold text-white mb-5 flex items-center">
             <span className="bg-cyan-neon/10 text-cyan-neon px-2 py-0.5 rounded text-sm mr-3 border border-cyan-neon/30">05</span>
             은밀한 성향 및 19+ 분위기
