@@ -1,0 +1,27 @@
+@import url('//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Spoqa Han Sans Neo', 'Spoqa Han Sans', sans-serif;
+  --color-navy: #0f172a;
+  --color-navy-dark: #0b1121;
+  --color-navy-light: #1e293b;
+  --color-silver: #94a3b8;
+  --color-silver-light: #cbd5e1;
+  --color-cyan-neon: #22d3ee;
+}
+
+body {
+  background-color: var(--color-navy-dark);
+  color: var(--color-silver-light);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 이미지 고유 비율 유지 제약 */
+img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}

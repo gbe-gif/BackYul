@@ -1,0 +1,6 @@
+{
+  "name": "WEA Archives",
+  "description": "세계이능관리국(WEA) 공식 아카이브. 2026년 이능 사회 데이터베이스.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
