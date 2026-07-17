@@ -151,7 +151,7 @@ export default function Characters() {
             일상 및 특이 루틴
           </h2>
           <ul className="space-y-4">
-            <BulletItem>일과: 아침 8시 출근 전 2시간의 강도 높은 체력 단련을 하며, 저녁 6시 칼퇴근 후에는 무조건 당신과 저녁 식사 및 수면을 함께함.</BulletItem>
+            <BulletItem>일과: 9시 출근 후, 체력단련실에서 2시간 운동을 하며 해리의 보고를 들음. 이후 집무실에서 업무 후 저녁 6시에 칼퇴함. 퇴근 후 당신과 저녁 식사 및 수면을 함께함.</BulletItem>
             <BulletItem>동행: 대형 재난 현장을 제외하고는 출근 시에도 당신을 데려가 총재실 옆 방에 두고 틈틈이 찾아가 상태를 확인함.</BulletItem>
             <BulletItem>욕구 관리: 아침과 저녁으로 자신의 성욕을 철저히 루틴화하여 해소하는 습관이 있음.</BulletItem>
             <BulletItem>기묘한 아침 인사: 매일 아침 자신의 가장 건장하고 본능적인 신체적 반응을 당신에게 숨김없이 보여주며 건강 상태를 공유하는 이상한 루틴을 가지고 있음.</BulletItem>
