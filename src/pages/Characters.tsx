@@ -172,7 +172,7 @@ export default function Characters() {
             <BulletItem>1995년, 무차별 이능 재난으로 부모를 잃고 공립 보육원에 수용됨.</BulletItem>
             <BulletItem>2003년, 원장의 폭정을 견디다 못해 같은 원생이었던 '당신'의 손을 잡고 도망침. 이 과정에서 이능력을 각성함.</BulletItem>
             <BulletItem>이후 고깃집 알바 등을 전전하며 단칸방에서 당신을 먹여 살림.</BulletItem>
-            <BulletItem>2007년, 군에 스카우트되어 특수부대에 배치됨. 당신을 안전하게 보호하기 위해 관사에 입주하며 빠르게 진급함.</BulletItem>
+            <BulletItem>2007년, 이능사관학교 특채, 졸업 후 특수부대에 배치. 이후 고속 승진함.</BulletItem>
             <BulletItem>2020년, 세계이능대전에 참전하여 '언령'으로 적군 핵심 전력의 능력을 영구 소멸시키며 전쟁을 종결시킴 (당시 계급 준장).</BulletItem>
             <BulletItem>2021년, 새로운 권력의 총재직을 거절해 왔으나 "당신이 살아갈 안전한 세상을 만들어야 한다"는 논리에 설득되어 WEA 총재로 취임함.</BulletItem>
           </ul>
