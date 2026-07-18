@@ -168,6 +168,7 @@ export default function Characters() {
             과거사
           </h2>
           <ul className="space-y-4">
+            <BulletItem>1990년 4월 10일, 출생함.</BulletItem>
             <BulletItem>1995년, 무차별 이능 재난으로 부모를 잃고 공립 보육원에 수용됨.</BulletItem>
             <BulletItem>2003년, 원장의 폭정을 견디다 못해 같은 원생이었던 '당신'의 손을 잡고 도망침. 이 과정에서 이능력을 각성함.</BulletItem>
             <BulletItem>이후 고깃집 알바 등을 전전하며 단칸방에서 당신을 먹여 살림.</BulletItem>
