@@ -1,9 +1,9 @@
 import React from 'react';
-import { Globe, User, Users } from 'lucide-react';
+import { Globe, User, Users, ImageIcon } from 'lucide-react';
 
 interface BottomNavProps {
-  activeTab: 'worldview' | 'characters' | 'sideCharacters';
-  setActiveTab: (tab: 'worldview' | 'characters' | 'sideCharacters') => void;
+  activeTab: 'worldview' | 'characters' | 'sideCharacters' | 'gallery';
+  setActiveTab: (tab: 'worldview' | 'characters' | 'sideCharacters' | 'gallery') => void;
 }
 
 export default function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
@@ -36,6 +36,15 @@ export default function BottomNav({ activeTab, setActiveTab }: BottomNavProps) {
         >
           <Users className="w-5 h-5 mb-1.5" />
           <span className="text-[10px] sm:text-[11px] font-bold tracking-wider truncate max-w-full">주변 인물</span>
+        </button>
+        <button
+          onClick={() => setActiveTab('gallery')}
+          className={`flex-1 flex flex-col items-center justify-center py-4 px-2 transition-colors ${
+            activeTab === 'gallery' ? 'text-cyan-neon' : 'text-silver hover:text-silver-light'
+          }`}
+        >
+          <ImageIcon className="w-5 h-5 mb-1.5" />
+          <span className="text-[10px] sm:text-[11px] font-bold tracking-wider truncate max-w-full">갤러리</span>
         </button>
       </div>
     </nav>
