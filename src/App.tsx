@@ -4,11 +4,12 @@ import Worldview from './pages/Worldview';
 import Characters from './pages/Characters';
 import SideCharacters from './pages/SideCharacters';
 import Gallery from './pages/Gallery';
+import PlayLog from './pages/PlayLog';
 import BottomNav from './components/BottomNav';
 import { Shield } from 'lucide-react';
 
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'worldview' | 'characters' | 'sideCharacters' | 'gallery'>('worldview');
+  const [activeTab, setActiveTab] = useState<'worldview' | 'characters' | 'sideCharacters' | 'gallery' | 'playLog'>('worldview');
 
   return (
     <div className="min-h-screen flex flex-col w-full bg-navy-dark">
@@ -29,6 +30,7 @@ export default function App() {
           {activeTab === 'characters' && <Characters key="characters" />}
           {activeTab === 'sideCharacters' && <SideCharacters key="sideCharacters" />}
           {activeTab === 'gallery' && <Gallery key="gallery" />}
+          {activeTab === 'playLog' && <PlayLog key="playLog" />}
         </AnimatePresence>
       </main>
 
